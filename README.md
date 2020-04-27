@@ -1,6 +1,10 @@
+# Documentation
+
 The Todo App is based on an MVC framework built from JavaScript. MVC stands for Model-View-Controller. In MVC, the concerns of the application are separated into three main components: the model, the view and the controller. Each component handles its own tasks and functionality, communicating with the other two components to form a complete system.
 
 In our app, the main files that perform our tasks are outlined below.
+
+---
 
 ## view.js
 The view.js component is what renders the view to the user and captures events and changes in the UI, triggering functions in the controller.js component.
@@ -85,6 +89,8 @@ For each ID passed in, triggers Model.update() to update the completed status of
 ### Controller.toggleAll(completed)
 Triggers Model.read() passing in a completed status opposite to the current completed state, and a callback function of .forEach() to apply the new status to each to-do item in the database.
 
+---
+
 ## model.js
 The model.js component is what accesses and updates the local database via the store.js component.
 
@@ -106,6 +112,8 @@ Finds an existing to-do object by the passed ID, and removes it from the databas
 ### Model.getCount(callback)
 Returns a count of completed, active and all to-do items in the database. This is done by triggering Store.findAll() in the store.js component.
 
+---
+
 ## store.js
 Todo App uses local storage as it’s default database. However, it is also possible to access a remote database through AJAX calls. Access to either of these is through the store.js component. All data written to local storage from store.js is converted to a string prior saving. All data passed forward from the database is parsed back into an object.
 
@@ -124,6 +132,8 @@ Will create a new to-do object and save to the database, via object passed in as
 ### Store.remove(id, callback)
 Remove the to-do item that matches ID passed in. Fires for individual removal as well as when using “clear Completed”.
 
+---
+
 ## template.js
 In template.js the basic HTML structure is laid out for individual to-do items, the to-do list, the active items counter, and the clear completed button.
 
@@ -138,3 +148,10 @@ This is the method that creates the counter at the bottom of the app, which disp
 
 ### Template.clearCompletedButton(completedTodos)
 This method determines if the “clear completed” button is generated or not. If there are any completed to-da items in the passed in completedTodos, then the button is generated. Else, an empty string is returned resulting in no button.
+
+---
+
+## Web Audit
+
+- [My todo-list-app results](/todo-list-app/audit/todo-list-app.html)
+- [Competitor site results](/todo-list-app/audit/competitor.html)
