@@ -153,5 +153,9 @@ This method determines if the “clear completed” button is generated or not. 
 
 ## Web Audit
 
-- [My todo-list-app results](/todo-list-app/audit/todo-list-app.html)
-- [Competitor site results](/todo-list-app/audit/competitor.html)
+### [My todo-list-app results](https://elbertcastaneda.github.io/todo-list-app/doc/audit/todo-list-app.html)
+![todo-list-app](https://elbertcastaneda.github.io/todo-list-app/doc/images/todo-list-app.png "Todo list app audit results")
+
+
+### [Competitor site results](https://elbertcastaneda.github.io/todo-list-app/doc/audit/competitor.html)
+![competitor](https://elbertcastaneda.github.io/todo-list-app/doc/images/competitor.png "Competitor site audit results")
