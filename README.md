@@ -153,8 +153,13 @@ This method determines if the “clear completed” button is generated or not. 
 
 ## Web Audit
 
+The todo app perform better then the competitor site.
+
 ### [My todo-list-app results](https://elbertcastaneda.github.io/todo-list-app/doc/audit/todo-list-app.html)
 ![todo-list-app](https://elbertcastaneda.github.io/todo-list-app/doc/images/todo-list-app.png "Todo list app audit results")
+
+- We need to minimize all resources to improve the performance as indicate it the report.
+- We can shrink the images to obtain a better load time.
 
 
 ### [Competitor site results](https://elbertcastaneda.github.io/todo-list-app/doc/audit/competitor.html)
