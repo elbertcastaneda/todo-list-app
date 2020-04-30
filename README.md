@@ -160,6 +160,10 @@ The todo app perform better then the competitor site.
 
 - We need to minimize all resources to improve the performance as indicate it the report.
 - We can shrink the images to obtain a better load time.
+- We can add more functionality without duplicating the performance problems showed in the competitor site.
+- We ensure that ad-words api are implemented in the correct way.
+- We can reduce the external dependencies.
+- We can implement the async load resources much as possible.
 
 
 ### [Competitor site results](https://elbertcastaneda.github.io/todo-list-app/doc/audit/competitor.html)
